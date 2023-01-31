@@ -28,7 +28,8 @@ main {
   margin-top: 7%;
   margin-left: auto;
   margin-right: auto;
-}
+  background-color: white;
+  }
 .button1 {
   background-color: #47adf1;
   border: solid;
@@ -40,6 +41,8 @@ main {
   border-radius: 10px;
   color: white;
   border-color: white;
+  margin: 2px;
+  margin-left: 40px;
 }
 .button2 {
   background-color: white;
@@ -57,12 +60,18 @@ main {
 
 /*MORE BUTTONS AND UL SECOND DIV*/
 
+ul{
+  list-style-type:none;
+}
+
 .UL{
   width: 50%;
   background-color: white;
   margin: 2px auto;
   padding: 40px;
-}
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  }
 
 .button3 {
   background-color: #47adf1;
@@ -77,36 +86,32 @@ main {
   color: white;
 }
 
-.button4{
-    background-color: #9d74e4;
-    border: solid;
-    padding: 4px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    border-radius: 30px;
-    border-color: white;
-    color: white;
+.status-greenmark{
+  color: green;
+  border: 1px solid green;
+  border-color:green;
+}
+/*SPAN LIST*/
+
+.backgroundblue{
+  color: white;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  vertical-align: middle;
+  line-height: 15px;
+  background-color: #47adf1;
 }
 
-.button5{
-    background-color: #63bfa8;
-    border: solid;
-    padding: 4px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    border-radius: 30px;
-    border-color: white;
-    color: white;
+.background{
+  color: white;
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  vertical-align: middle;
+  line-height: 15px;
 }
 
-.check {
-  height: 25px;
-  width: 25px;
-  background-color: greenyellow;
-  border-radius: 50%;
-  display: inline-block;
+.blue{
+  background-color: #47adf1;
 }
