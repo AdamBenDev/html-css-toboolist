@@ -28,6 +28,10 @@ main {
   line-height: 40px;
 }
 
+.text{
+  vertical-align: midd;
+}
+
 /*BUTTONS FIRST DIV*/
 
 .buttons {
@@ -154,6 +158,3 @@ ul{
   background-color: skyblue;
 }
 
-.text{
-  vertical-align: midd;
-}
