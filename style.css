@@ -85,23 +85,30 @@ ul{
   border-color: white;
   color: white;
 }
+/*STATUS*/
 
-.status-greenmark{
-  color: green;
-  border: 1px solid green;
-  border-color:green;
-}
-/*SPAN LIST*/
-
-.backgroundblue{
-  color: white;
+.status{
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
   font-size: 10px;
-  border-radius: 10px;
-  padding: 5px 10px;
-  vertical-align: middle;
   line-height: 15px;
-  background-color: #47adf1;
+  vertical-align: middle;
+  text-align: center;
 }
+
+.sgreen{
+  background-color: white;
+  border: 1px solid green
+
+}
+
+.sred{
+  background-color: white;
+  border: 1px solid red;
+}
+
+/*SPAN LIST*/
 
 .background{
   color: white;
@@ -114,4 +121,27 @@ ul{
 
 .blue{
   background-color: #47adf1;
+}
+
+.purple{
+  background-color: #9b71e3;
+}
+
+.green{
+  background-color: forestgreen;
+}
+
+.orange{
+  background-color: coral;
+}
+
+.rose{
+  background-color: palevioletred;
+}
+.green2{
+  background-color: #b1ca2c;
+}
+
+.blue2{
+  background-color: skyblue;
 }
